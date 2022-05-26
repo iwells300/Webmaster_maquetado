@@ -133,7 +133,7 @@ class autoSeleccionado{
             coloresAuto.appendChild(colorItem);
         }
         
-        fotoAuto.setAttribute("src", "ImagenesS1/"+this.modelo+"/"+this.coloresDisponibles[0]+".jpg");
+        fotoAuto.setAttribute("src", "ImagenesS1/"+this.modelo.toLowerCase()+"/"+this.coloresDisponibles[0]+".jpg");
         contenedorFoto.style.backgroundColor=this.colorFondoFoto;
 
         let listaColores=document.querySelectorAll('.coloresAuto--txt__c');
